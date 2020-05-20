@@ -34,11 +34,5 @@ Upravljanje Rent – a – Car agencijom , te njihovim procesima je glavna stvar
 - Radnik
 - Klijent(u smislu da vidi koliko mu je vremena ostalo za koristenje vozila)
 
-## C#
-
-```C#
-[HASTeam](https://hasagency.com)
-```
-
 
 
