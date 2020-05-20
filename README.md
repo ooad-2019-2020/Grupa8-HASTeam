@@ -1,6 +1,6 @@
 # Rent – A – Car Agency
 
-![Image description](E:\123)
+![Image description](https://github.com/ooad-2019-2020/Grupa8-HASTeam/blob/master/123.png)
 
 ## HAS Team
 -  [Asim Haskić](https://github.com/ahaskic1)
