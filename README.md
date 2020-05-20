@@ -1,9 +1,9 @@
 # Rent – A – Car Agency
 
 ## HAS Team
--  [Asim Haskić](https://github.com/ahaskic1  “Github“)
--  [Haris Haskić](https://github.com/hhaskic1  “Github“)
--  [Senad Topalović](https://github.com/stopalovic1  “Github“)
+-  [Asim Haskić](https://github.com/ahaskic1)
+-  [Haris Haskić](https://github.com/hhaskic1)
+-  [Senad Topalović](https://github.com/stopalovic1)
 
 ## Opis teme
 
