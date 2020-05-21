@@ -36,6 +36,6 @@ Upravljanje Rent – a – Car agencijom , te njihovim procesima je glavna stvar
 - Radnik
 - Klijent(u smislu da vidi koliko mu je vremena ostalo za koristenje vozila)
 
-## OBavijesti
+## Obavijesti
 Dana 16.5.2019. godine desilo se da nam izbaguje git konzola i citav repozitorij je obrisan.Ponovo smo sve pushali nakon konsultacija sa asistentom.
 
