@@ -15,7 +15,11 @@ namespace HASRental.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
+<<<<<<< HEAD
                 .HasAnnotation("ProductVersion", "3.1.2")
+=======
+                .HasAnnotation("ProductVersion", "3.1.1")
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -180,9 +184,12 @@ namespace HASRental.Migrations
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
 
+<<<<<<< HEAD
                     b.Property<int>("Uloga")
                         .HasColumnType("int");
 
+=======
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24
                     b.Property<string>("UserName")
                         .HasColumnType("nvarchar(256)")
                         .HasMaxLength(256);

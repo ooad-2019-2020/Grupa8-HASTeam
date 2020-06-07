@@ -27,10 +27,13 @@ namespace HASRental.Controllers
         {
             return View();
         }
+<<<<<<< HEAD
         public IActionResult Servisi()
         {
             return View();
         }
+=======
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

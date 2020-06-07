@@ -14,8 +14,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using HASRental.Models;
 using Microsoft.AspNetCore.Http;
+<<<<<<< HEAD
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+=======
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24
 
 namespace HASRental
 {
@@ -47,12 +50,16 @@ namespace HASRental
                 options.SignIn.RequireConfirmedAccount = true;
             }).AddDefaultUI().
          AddEntityFrameworkStores<NasContext>().AddDefaultTokenProviders();
+<<<<<<< HEAD
            /* services.AddMvc(options =>
             {
                 var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
                 options.Filters.Add(new AuthorizeFilter(policy));
 
             }).AddXmlSerializerFormatters();*/
+=======
+
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

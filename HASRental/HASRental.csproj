@@ -14,8 +14,11 @@
     <Compile Remove="Migrations\20200515210749_PrvaMigracija.Designer.cs" />
     <Compile Remove="Migrations\20200515210931_PrvaMigracija.cs" />
     <Compile Remove="Migrations\20200515210931_PrvaMigracija.Designer.cs" />
+<<<<<<< HEAD
     <Compile Remove="Migrations\20200519150730_DrugaMigracija.cs" />
     <Compile Remove="Migrations\20200519150730_DrugaMigracija.Designer.cs" />
+=======
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24
   </ItemGroup>
 
 
@@ -23,10 +26,16 @@
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.1" />
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+=======
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24
   </ItemGroup>
 
 </Project>

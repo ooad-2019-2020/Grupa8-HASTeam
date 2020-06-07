@@ -152,6 +152,7 @@ C:\Users\Senad\source\repos\HASRental\HASRental\bin\Debug\netcoreapp3.1\zh-Hans\
 C:\Users\Senad\source\repos\HASRental\HASRental\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Senad\source\repos\HASRental\HASRental\obj\Debug\netcoreapp3.1\HASRental.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Senad\source\repos\HASRental\HASRental\obj\Debug\netcoreapp3.1\HASRental.MvcApplicationPartsAssemblyInfo.cache
+<<<<<<< HEAD
 C:\Users\Senad\Downloads\Grupa8-HASTeam-master\Grupa8-HASTeam-master\HASRental\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Senad\Downloads\Grupa8-HASTeam-master\Grupa8-HASTeam-master\HASRental\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Senad\Downloads\Grupa8-HASTeam-master\Grupa8-HASTeam-master\HASRental\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -407,3 +408,5 @@ C:\Users\Senad\Downloads\Grupa8-HASTeam-master\Grupa8-HASTeam-master\HASRental\o
 C:\Users\Senad\Downloads\Grupa8-HASTeam-master\Grupa8-HASTeam-master\HASRental\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Details.cshtml.g.cs
 C:\Users\Senad\Downloads\Grupa8-HASTeam-master\Grupa8-HASTeam-master\HASRental\obj\Debug\netcoreapp3.1\Razor\Views\FakturaRente\Details.cshtml.g.cs
 C:\Users\Senad\Downloads\Grupa8-HASTeam-master\Grupa8-HASTeam-master\HASRental\obj\Debug\netcoreapp3.1\Razor\Views\Home\Servisi.cshtml.g.cs
+=======
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Senad\\Downloads\\Grupa8-HASTeam-master\\Grupa8-HASTeam-master\\HASRental\\HASRental.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Senad\\Downloads\\Grupa8-HASTeam-master\\Grupa8-HASTeam-master\\HASRental\\HASRental.csproj",
         "packagesPath": "C:\\Users\\Senad\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Senad\\Downloads\\Grupa8-HASTeam-master\\Grupa8-HASTeam-master\\HASRental\\obj\\",
+=======
+    "C:\\Users\\Senad\\source\\repos\\HASRental\\HASRental\\HASRental.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Senad\\source\\repos\\HASRental\\HASRental\\HASRental.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Senad\\source\\repos\\HASRental\\HASRental\\HASRental.csproj",
+        "projectName": "HASRental",
+        "projectPath": "C:\\Users\\Senad\\source\\repos\\HASRental\\HASRental\\HASRental.csproj",
+        "packagesPath": "C:\\Users\\Senad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Senad\\source\\repos\\HASRental\\HASRental\\obj\\",
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Senad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,17 +68,24 @@
               "target": "Package",
               "version": "[3.1.1, )"
             },
+<<<<<<< HEAD
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.2, )"
             },
+=======
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
+<<<<<<< HEAD
               "version": "[3.1.3, )"
+=======
+              "version": "[3.1.2, )"
+>>>>>>> d03d76121a57b714259ed968a9ff12bff5050e24
             }
           },
           "imports": [
