@@ -1,0 +1,69 @@
+﻿@model HASRental.Models.Renta
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Renta</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="KorisnikId" class="control-label"></label>
+                <select asp-for="KorisnikId" class="form-control" asp-items="ViewBag.KorisnikId"></select>
+                <span asp-validation-for="KorisnikId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VoziloId" class="control-label"></label>
+                <select asp-for="VoziloId" class="form-control" asp-items="ViewBag.VoziloId"></select>
+                <span asp-validation-for="VoziloId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PocetnaLokacijaId" class="control-label"></label>
+                <select asp-for="PocetnaLokacijaId" class="form-control" asp-items="ViewBag.PocetnaLokacijaId"></select>
+                <span asp-validation-for="PocetnaLokacijaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KrajnjaLokacijaId" class="control-label"></label>
+                <select asp-for="KrajnjaLokacijaId" class="form-control" asp-items="ViewBag.KrajnjaLokacijaId"></select>
+                <span asp-validation-for="KrajnjaLokacijaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatumRentanja" class="control-label"></label>
+                <input asp-for="DatumRentanja" class="form-control" />
+                <span asp-validation-for="DatumRentanja" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatumVracanja" class="control-label"></label>
+                <input asp-for="DatumVracanja" class="form-control" />
+                <span asp-validation-for="DatumVracanja" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DodatneNaznake" class="control-label"></label>
+                <input asp-for="DodatneNaznake" class="form-control" />
+                <span asp-validation-for="DodatneNaznake" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipRezervoaraId" class="control-label"></label>
+                <select asp-for="TipRezervoaraId" class="form-control" asp-items="ViewBag.TipRezervoaraId"></select>
+                <span asp-validation-for="TipRezervoaraId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

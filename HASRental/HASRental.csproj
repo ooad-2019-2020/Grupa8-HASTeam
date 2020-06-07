@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-HASRental-257C742D-0978-4DE2-A147-E4EEA529BFCE</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200515204716_PrvaMigracija.cs" />
+    <Compile Remove="Migrations\20200515204716_PrvaMigracija.Designer.cs" />
+    <Compile Remove="Migrations\20200515210118_PrvaMigracija.cs" />
+    <Compile Remove="Migrations\20200515210118_PrvaMigracija.Designer.cs" />
+    <Compile Remove="Migrations\20200515210749_PrvaMigracija.cs" />
+    <Compile Remove="Migrations\20200515210749_PrvaMigracija.Designer.cs" />
+    <Compile Remove="Migrations\20200515210931_PrvaMigracija.cs" />
+    <Compile Remove="Migrations\20200515210931_PrvaMigracija.Designer.cs" />
+    <Compile Remove="Migrations\20200519150730_DrugaMigracija.cs" />
+    <Compile Remove="Migrations\20200519150730_DrugaMigracija.Designer.cs" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+  </ItemGroup>
+
+</Project>
