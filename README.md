@@ -39,3 +39,7 @@ Upravljanje Rent – a – Car agencijom , te njihovim procesima je glavna stvar
 ## Obavijesti
 Dana 16.5.2019. godine desilo se da nam izbaguje git konzola i citav repozitorij je obrisan.Ponovo smo sve pushali nakon konsultacija sa asistentom.
 
+## Credits
+Veliku veličinu koda (oko 98%) HASRentala od nule je razvio Senad Topalović.
+Želio bih se zahvaliti kolegi Semiru Suljeviću koji je učestvovao u rješavanju svih problema koji su nastali tokom implementacije.
+2020. Sva prava zadržana.
